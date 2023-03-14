@@ -32,8 +32,14 @@ ul, h1, h2, h3, p {
         background: #FFF;
         transition: .2s linear;
     }
-    .header.scrolled img.header-icons__image {
-        filter: none;
+    .header-image__color {
+        display: none;
+    }
+    .header.scrolled .header-image__notcolor {
+        display: none;
+    }
+    .header.scrolled .header-image__color {
+        display: block;
     }
 }
 
@@ -54,7 +60,6 @@ ul, h1, h2, h3, p {
 .header-icons__image {
     width: 100%;
     max-width: max-content;
-    filter: brightness(60);
 }
 
 .header-buttons__href {
