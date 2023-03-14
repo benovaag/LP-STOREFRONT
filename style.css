@@ -43,6 +43,12 @@ ul, h1, h2, h3, p {
     }
 }
 
+@media(max-width: 1025px) {
+    .header-image__color {
+        display: none;
+    }
+}
+
 @media(min-width: 1026px) {
     .header .container {
         display: flex;
