@@ -368,7 +368,7 @@
                             <img class="contact-image" src="img/new/form-image.png" alt="Mulher sorrindo com os braços cruzados" title="Formulário para contato">
                         </div>
                         <div class="form-content">
-                            <form class="form" action="/" method="POST" id="form_lp">
+                            <form class="form" action="/" method="GET" id="form_lp" name="formulario_lpwake">
                                 <div class="form-item">
                                     <label class="form-label">Nome*</label>
                                     <input type="text" name="name" placeholder="Seu nome" required="" class="form-field form-field__required">
@@ -504,6 +504,20 @@
                 // Se não for, remove a classe "scrolled" do elemento header
                 header.classList.remove('scrolled');
             }
+            });
+
+            // Exibe alerta ao clica no botão de enviar formulário
+
+            var form = document.querySelector("#form_lp");
+        
+            form?.addEventListener('submit', function (event) {
+                if (!event.target.checkValidity()) {
+                    event.preventDefault();
+                    event.stopPropagation();
+                    alert("Preencha todos os campos.")
+                } else {
+                    alert("Mensagem enviada com sucesso!")
+                }
             });
         </script>
 
