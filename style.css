@@ -1111,7 +1111,7 @@ h3.benefits-subtitle {
 
 .contact-form .form-button {
     width: 100%;
-    text-align: right;
+    text-align: left;
 }
 
 @media screen and (min-width: 1026px){
