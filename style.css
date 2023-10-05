@@ -797,7 +797,7 @@ h3.benefits-subtitle {
     font-size: 14px;
     line-height: 16px;
     color: #AB36DC;
-    font-weight: 600;
+    /*font-weight: 600;*/
     padding-top: 20px;
 }
 
@@ -931,7 +931,7 @@ h3.benefits-subtitle {
 
 .contact-description {
     color: #272727;
-    font-weight: 500;
+    /*font-weight: 500;*/
     display: none;
 }
 
@@ -1030,6 +1030,7 @@ h3.benefits-subtitle {
 .form{
     width: 100%;
     display: block;
+    gap: 20px;
 }
 @media screen and (min-width: 1026px){
     .form{
@@ -1041,6 +1042,7 @@ h3.benefits-subtitle {
 .form-image,
 .form-content{
     width: 100%;
+    margin-top: 20px;
 }
 @media screen and (min-width: 1026px){    
     .form-image,
@@ -1064,6 +1066,9 @@ h3.benefits-subtitle {
     .contact .form {
         flex-direction: column;
         row-gap: 20px;
+    }
+    .contact-form .form-field {
+        margin-bottom: 10px;
     }
 }
 
@@ -1096,7 +1101,7 @@ h3.benefits-subtitle {
 
 @media(min-width: 1026px) {
     .contact-form .form-item {
-        width: 47%;
+        width: calc(50% - 20px);
     }
 }
 
