@@ -494,8 +494,8 @@
         <script>
             // Seleciona o elemento header
             const header = document.querySelector('header');
-            // Seleciona o main
-            const main = document.querySelector('main');
+            // Seleciona o body
+            const body = document.querySelector('body');
 
             // Adiciona um event listener ao elemento window
             window.addEventListener('scroll', () => {
@@ -503,11 +503,11 @@
             if (window.scrollY > 0) {
                 // Se for maior, adiciona a classe "scrolled" ao elemento header
                 header.classList.add('scrolled');
-                main.classList.add('scrolled');
+                body.classList.add('scrolled');
             } else {
                 // Se não for, remove a classe "scrolled" do elemento header
                 header.classList.remove('scrolled');
-                main.classList.remove('scrolled');
+                body.classList.remove('scrolled');
             }
             });
 

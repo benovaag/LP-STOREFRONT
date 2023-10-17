@@ -34,11 +34,11 @@ input:focus-visible{
     padding: 15px 0;
     border-bottom: 1px solid #FFF;
 }
-main {
+body {
     transition: .2s linear;
     transform: translateY(-70px);
 }
-main.scrolled {
+body.scrolled {
     transform: translateY(0);
 }
 @media(min-width: 1026px) {
@@ -48,14 +48,12 @@ main.scrolled {
         top: 0;
         z-index: 999;
         transition: .2s linear;
-        transform: translateY(-70px);
         height: 70px;
         box-sizing: border-box;
     }
     .header.scrolled {
         background: #FFF;
         transition: .2s linear;
-        transform: translateY(0);
     }
     .header-image__color {
         display: none;
