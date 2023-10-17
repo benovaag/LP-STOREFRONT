@@ -36,7 +36,7 @@ input:focus-visible{
 }
 @media(min-width: 1026px) {
     .header {
-        position: fixed;
+        position: sticky;
         width: 100%;
         top: 0;
         z-index: 999;
