@@ -32,7 +32,7 @@ input:focus-visible{
 .header {
     background: #050505;
     padding: 15px 0;
-    border-bottom: 1px solid #FFF;
+    /* border-bottom: 1px solid #FFF; */
 }
 @media(min-width: 1026px) {
     .header {
@@ -43,13 +43,9 @@ input:focus-visible{
         transition: .1s linear;
         height: 70px;
         box-sizing: border-box;
-        opacity: 0;
-        pointer-events: none;
     }
     .header.scrolled {
         background: #FFF;
-        opacity: 1;
-        pointer-events: initial;
     }
     .header-image__color {
         display: none;
@@ -128,6 +124,8 @@ input:focus-visible{
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 940px;
+    margin-top: -70px;
+    padding-top: 70px;
 }
 
 @media(min-width: 1026px) {
