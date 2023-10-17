@@ -500,15 +500,13 @@
             // Adiciona um event listener ao elemento window
             window.addEventListener('scroll', () => {
             // Verifica se a posição vertical do scroll é maior do que 0
-            //if (window.scrollY > 0) {
+            if (window.scrollY > 0) {
                 // Se for maior, adiciona a classe "scrolled" ao elemento header
-            //    header.classList.add('scrolled');
-            //    body.classList.add('scrolled');
-           // } else {
+                header.classList.add('scrolled');
+            } else {
                 // Se não for, remove a classe "scrolled" do elemento header
-            //    header.classList.remove('scrolled');
-            //    body.classList.remove('scrolled');
-           // }
+                header.classList.remove('scrolled');
+            }
             });
 
             // Exibe alerta ao clica no botão de enviar formulário

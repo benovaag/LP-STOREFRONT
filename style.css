@@ -34,26 +34,22 @@ input:focus-visible{
     padding: 15px 0;
     border-bottom: 1px solid #FFF;
 }
-body {
-    transition: .2s linear;
-    transform: translateY(-70px);
-}
-body.scrolled {
-    transform: translateY(0);
-}
 @media(min-width: 1026px) {
     .header {
         position: sticky;
         width: 100%;
         top: 0;
         z-index: 999;
-        transition: .2s linear;
+        transition: .1s linear;
         height: 70px;
         box-sizing: border-box;
+        opacity: 0;
+        pointer-events: none;
     }
     .header.scrolled {
         background: #FFF;
-        transition: .2s linear;
+        opacity: 1;
+        pointer-events: initial;
     }
     .header-image__color {
         display: none;
