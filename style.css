@@ -39,20 +39,20 @@ input:focus-visible{
 .header.scrolled .header-buttons {
     display: block;
 }
-.header {
-    position: sticky;
-    width: 100%;
-    top: 0;
-    z-index: 999;
-    transition: .1s linear;
-    height: 70px;
-    box-sizing: border-box;
-}
-.header.scrolled {
-    background: #FFF;
-    border-bottom: 1px solid #FFF;
-}
 @media(min-width: 1026px) {
+    .header {
+        position: sticky;
+        width: 100%;
+        top: 0;
+        z-index: 999;
+        transition: .1s linear;
+        height: 70px;
+        box-sizing: border-box;
+    }
+    .header.scrolled {
+        background: #FFF;
+        border-bottom: 1px solid #FFF;
+    }
     .header-image__color {
         display: none;
     }
@@ -67,6 +67,12 @@ input:focus-visible{
 @media(max-width: 1025px) {
     .header-image__color {
         display: none;
+    }
+    .header {
+        position: relative;
+        width: 100%;
+        height: 70px;
+        box-sizing: border-box;
     }
 }
 
