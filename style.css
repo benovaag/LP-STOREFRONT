@@ -36,9 +36,6 @@ input:focus-visible{
 .header-buttons {
     display: none;
 }
-.header.scrolled .header-buttons {
-    display: block;
-}
 @media(min-width: 1026px) {
     .header {
         position: sticky;
@@ -52,6 +49,9 @@ input:focus-visible{
     .header.scrolled {
         background: #FFF;
         border-bottom: 1px solid #FFF;
+    }
+    .header.scrolled .header-buttons {
+        display: block;
     }
     .header-image__color {
         display: none;
