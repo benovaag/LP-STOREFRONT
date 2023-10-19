@@ -36,6 +36,9 @@ input:focus-visible{
 .header-buttons {
     display: none;
 }
+.nowrap {
+    text-wrap: wrap;
+}
 @media(min-width: 1026px) {
     .header {
         position: sticky;
