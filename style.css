@@ -37,7 +37,7 @@ input:focus-visible{
     display: none;
 }
 .nowrap {
-    text-wrap: wrap;
+    text-wrap: nowrap;
 }
 @media(min-width: 1026px) {
     .header {
