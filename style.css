@@ -1,5 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+/* FONTES */
+@font-face {
+    font-family: borna;
+    src: url("./fontes/Borna-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: borna;
+    font-weight: 400;
+    src: url("./fontes/Borna-Medium.otf") format("opentype");
+}
+
+@font-face {
+    font-family: borna;
+    font-weight: 500;
+    src: url("./fontes/Borna-SemiBold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: borna;
+    font-weight: 600;
+    src: url("./fontes/Borna-Bold.otf") format("opentype");
+}
+
 * {
     scroll-behavior: smooth;
 }
@@ -7,7 +31,7 @@
 body {
     padding: 0;
     margin: 0;
-    font-family: 'Inter', sans-serif;
+    font-family: 'borna', sans-serif;
 }
 
 ul, h1, h2, h3, p {
@@ -180,7 +204,7 @@ input:focus-visible{
 }
 @media(min-width: 1026px) {
     .banner-main__title {
-        font-size: 46px;
+        font-size: 36px;
         line-height: 50px;
     }
 }
