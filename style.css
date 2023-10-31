@@ -813,12 +813,13 @@ h3.benefits-subtitle {
 @media(min-width: 1026px) {
     .about-description {
         font-size: 36px;
-        line-height: 48px;
+        line-height: 40px;
     }
 }
 @media(max-width: 1025px) {
     .about-description {
-        font-size: 30px;
+        font-size: 24px;
+        line-height: 30px;
     }
 }
 
@@ -852,9 +853,9 @@ h3.benefits-subtitle {
 
 .about-item__text {
     font-size: 14px;
-    line-height: 16px;
+    line-height: 18px;
     color: #AB36DC;
-    /*font-weight: 600;*/
+    font-weight: 300;
     padding-top: 20px;
 }
 
@@ -1024,9 +1025,9 @@ h3.benefits-subtitle {
 
 .form-title{
     color: #FFFFFF;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 18px;
-    line-height: 22px;
+    line-height: 24px;
     max-width: 100%;
     position: relative;
     margin: 0;
@@ -1035,7 +1036,7 @@ h3.benefits-subtitle {
 @media screen and (min-width: 1026px){
     .form-title{
         font-size: 24px;
-        line-height: 26px;
+        line-height: 30px;
         max-width: max-content;
         padding-right: 15px;
     }    
