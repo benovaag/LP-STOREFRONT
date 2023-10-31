@@ -498,7 +498,14 @@ h3.benefits-subtitle {
     font-size: 18px;
     line-height: 24px;
     color: #010101;
-    /* font-weight: 400; */
+    font-weight: 300;
+}
+
+@media(max-width: 1025px) {
+    .benefits-item__description {
+        font-size: 14px;
+        line-height: 18px;
+    }
 }
 
 /* BENEFITS - TOP*/
