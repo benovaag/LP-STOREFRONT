@@ -33,6 +33,7 @@ body {
     padding: 0;
     margin: 0;
     font-family: 'borna', sans-serif;
+    font-weight: 300;
 }
 
 ul, h1, h2, h3, p {
