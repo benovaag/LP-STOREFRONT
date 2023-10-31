@@ -540,16 +540,16 @@ h3.benefits-subtitle {
 }
 
 .benefits-header-top .benefits-texts__description {
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 14px;
+    line-height: 18px;
     color: #272727;
     font-weight: 300;
     padding-top: 15px;
 }
 @media screen and (min-width: 1026px){
     .benefits-header-top .benefits-texts__description {
-        font-size: 14px;
-        line-height: 18px;
+        font-size: 18px;
+        line-height: 24px;
     }        
 }
 
