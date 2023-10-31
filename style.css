@@ -345,13 +345,13 @@ input:focus-visible{
 @media(min-width: 1026px) {
     .benefits-subtitle {
         font-size: 36px;
-        line-height: 52px;
+        line-height: 40px;
     }
 }
 @media(max-width: 1025px) {
     .benefits-subtitle {
-        font-size: 36px;
-        line-height: 34px;
+        font-size: 24px;
+        line-height: 30px;
         padding-top: 0;
         padding-bottom: 40px;
     }
@@ -359,7 +359,7 @@ input:focus-visible{
 
 .benefits-subtitle b b{
     color: #7F00A6;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 h3.benefits-subtitle {
@@ -645,7 +645,7 @@ h3.benefits-subtitle {
 @media(min-width: 1026px) {
     .cases-main__title {
         font-size: 24px;
-        line-height: 39px;
+        line-height: 30px;
     }
     .cases-main__title-desktop {
         display: block;    
@@ -657,7 +657,7 @@ h3.benefits-subtitle {
 @media(max-width: 1025px) {
     .cases-main__title {
         font-size: 24px;
-        line-height: 34px;
+        line-height: 30px;
         text-align: left;
     }
     .cases-main__title-desktop {
@@ -675,8 +675,8 @@ h3.benefits-subtitle {
 .cases-main__item{
     color: #FFFFFF;
     margin: 10px 0;
-    font-size: 18px;
-    line-height: 22px;
+    font-size: 14px;
+    line-height: 18px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -710,7 +710,7 @@ h3.benefits-subtitle {
 @media screen and (min-width: 1026px){    
     .cases-main__titleData{
         font-size: 18px;
-        line-height: 26px;
+        line-height: 24px;
         margin: 15px 0;
     }
 }
