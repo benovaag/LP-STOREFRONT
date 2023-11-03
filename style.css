@@ -174,7 +174,8 @@ input:focus-visible{
     .banner-main {
         background-image: url("img/new/bannerMainBackground.jpg");
         background-repeat: no-repeat;
-        background-size: cover; 
+        background-size: cover;
+        background-position-x: center;
         min-height: 768px;
     }
 }
