@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /login/
+Disallow: /calculadora-shopify-plus/
+Disallow: /cases/
+Disallow: /blog/
+Disallow: /carreiras/
+
+Sitemap: https://www.benova.ag/sitemap.xml

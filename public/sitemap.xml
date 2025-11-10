@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://www.benova.ag/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.benova.ag/sobre</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.benova.ag/solucoes</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.benova.ag/cases</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.benova.ag/blog</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.benova.ag/parceiros</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.benova.ag/carreiras</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.benova.ag/contato</loc>
+    <priority>0.7</priority>
+  </url>
+</urlset>
